@@ -1,0 +1,11 @@
+framework module Desk360 {
+  umbrella header "Desk360-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Desk360.Swift {
+    header "Desk360-Swift.h"
+    requires objc
+}

@@ -1,0 +1,206 @@
+PODS:
+  - Alamofire (5.5.0)
+  - AMRAdapterAdmob (8.13.0.2):
+    - AMRSDK (~> 1.5.4)
+    - Google-Mobile-Ads-SDK (= 8.13.0.0)
+  - AMRAdapterAdmost (1.6.0.2):
+    - AMRAdmostSDK (~> 1.0.9)
+    - AMRSDK (~> 1.5.0)
+  - AMRAdapterFacebook (6.9.0.3):
+    - AMRSDK (~> 1.5.4)
+    - FBAudienceNetwork (= 6.9.0)
+  - AMRAdmostSDK (1.0.14):
+    - AMRSDK (~> 1.5.0)
+    - KokteylLog (~> 1.0.8)
+  - AMRSDK (1.5.4):
+    - KokteylLog (~> 1.0.8)
+  - ContextMenu (0.4.0)
+  - Desk360 (1.8.5):
+    - DeviceKit
+    - Moya (~> 14.0)
+    - NVActivityIndicatorView (= 4.8.0)
+    - PersistenceKit
+    - SnapKit
+  - DeviceKit (4.5.2)
+  - FBAudienceNetwork (6.9.0)
+  - Google-Mobile-Ads-SDK (8.13.0):
+    - GoogleAppMeasurement (< 9.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (8.11.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.11.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 8.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (8.11.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GooglePlaces (5.1.0)
+  - GoogleUserMessagingPlatform (2.0.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - HeraSDK (2.0.2):
+    - HeraSDK/Core (= 2.0.2)
+  - HeraSDK/Core (2.0.2):
+    - AMRAdapterAdmob
+    - AMRAdapterAdmost
+    - AMRAdapterFacebook
+    - AMRSDK (~> 1.4)
+    - MoPub-AdMob-Adapters
+    - MoPub-FacebookAudienceNetwork-Adapters
+    - mopub-ios-sdk (~> 5.17)
+    - Moya
+  - IBAnimatable (6.1.0)
+  - KDCircularProgress (1.5.4)
+  - KokteylLog (1.0.8)
+  - lottie-ios (3.3.0)
+  - MoPub-AdMob-Adapters (8.11.0.1):
+    - MoPub-AdMob-Adapters/MoPub (= 8.11.0.1)
+    - MoPub-AdMob-Adapters/Network (= 8.11.0.1)
+  - MoPub-AdMob-Adapters/MoPub (8.11.0.1):
+    - mopub-ios-sdk/Core (~> 5.17)
+    - mopub-ios-sdk/NativeAds (~> 5.17)
+  - MoPub-AdMob-Adapters/Network (8.11.0.1):
+    - Google-Mobile-Ads-SDK (~> 8.11)
+    - mopub-ios-sdk/Core (~> 5.17)
+    - mopub-ios-sdk/NativeAds (~> 5.17)
+  - MoPub-FacebookAudienceNetwork-Adapters (6.7.0.1):
+    - MoPub-FacebookAudienceNetwork-Adapters/MoPub (= 6.7.0.1)
+    - MoPub-FacebookAudienceNetwork-Adapters/Network (= 6.7.0.1)
+  - MoPub-FacebookAudienceNetwork-Adapters/MoPub (6.7.0.1):
+    - mopub-ios-sdk/Core (~> 5.17)
+    - mopub-ios-sdk/NativeAds (~> 5.17)
+  - MoPub-FacebookAudienceNetwork-Adapters/Network (6.7.0.1):
+    - FBAudienceNetwork (~> 6.7)
+    - mopub-ios-sdk/Core (~> 5.17)
+    - mopub-ios-sdk/NativeAds (~> 5.17)
+  - mopub-ios-sdk (5.18.2):
+    - mopub-ios-sdk/MoPubSDK (= 5.18.2)
+  - mopub-ios-sdk/Core (5.18.2)
+  - mopub-ios-sdk/MoPubSDK (5.18.2):
+    - mopub-ios-sdk/Core
+    - mopub-ios-sdk/NativeAds
+  - mopub-ios-sdk/NativeAds (5.18.2):
+    - mopub-ios-sdk/Core
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - PersistenceKit (1.3)
+  - PromisesObjC (2.0.0)
+  - SnapKit (5.0.1)
+  - UICKeyChainStore (2.2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ContextMenu
+  - Desk360
+  - GooglePlaces
+  - HeraSDK
+  - IBAnimatable
+  - KDCircularProgress
+  - lottie-ios
+  - UICKeyChainStore
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AMRAdapterAdmob
+    - AMRAdapterAdmost
+    - AMRAdapterFacebook
+    - AMRAdmostSDK
+    - AMRSDK
+    - ContextMenu
+    - Desk360
+    - DeviceKit
+    - FBAudienceNetwork
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GooglePlaces
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - HeraSDK
+    - IBAnimatable
+    - KDCircularProgress
+    - KokteylLog
+    - lottie-ios
+    - MoPub-AdMob-Adapters
+    - MoPub-FacebookAudienceNetwork-Adapters
+    - mopub-ios-sdk
+    - Moya
+    - nanopb
+    - NVActivityIndicatorView
+    - PersistenceKit
+    - PromisesObjC
+    - SnapKit
+    - UICKeyChainStore
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  AMRAdapterAdmob: e03d42d47212afa060688363f85da4336b1e4436
+  AMRAdapterAdmost: 2d7c23a09d5f79552bf24817361c3a0e60226e26
+  AMRAdapterFacebook: 8dd572a19967ce17f52b4ad5003a1e2981edf5c2
+  AMRAdmostSDK: dfc48198e4ff837ce9f728e7a9cc7bf9dede1927
+  AMRSDK: 3bd8a73147872663b14086d37f8a359d803a96ec
+  ContextMenu: f835e09a93f1c28c631b76ee94396d9570397fd1
+  Desk360: 1bde89585dc54454935d12b38c322c5d43bff58e
+  DeviceKit: c622fc19f795f3e0b4d75d6d11b26604338cdab3
+  FBAudienceNetwork: 83096d73433759c10f9cf9b3bad5e5cff58694cb
+  Google-Mobile-Ads-SDK: 05e5d68bb42a61b2e5bef336a52789785605aa22
+  GoogleAppMeasurement: aa3cb422fab2b05d2efac543a5720d1a85b9dea5
+  GooglePlaces: c57cd5aa7e91d10fa5106c792de74f3bd6436260
+  GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  HeraSDK: 3180b097d2bfb5158a6530dbaf3f25a1ed7b1e2b
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  KDCircularProgress: 98200c6b8e85d22bc04eb644721d3b1e12b0686b
+  KokteylLog: 5e776068ae4a8456052e8df5d42f2bbd8c08c852
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  MoPub-AdMob-Adapters: 02cb6b84dae3a86beb74be9fa24ad7e2c1d5915c
+  MoPub-FacebookAudienceNetwork-Adapters: 3c84a1119dee5a10d18a7e96c539a88dd996941a
+  mopub-ios-sdk: 39dd404dc791e543979b91aa8e3b27197af91377
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PersistenceKit: 510fe7a29039f2820c5dda21ecc1b9d0d99cbdd5
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+
+PODFILE CHECKSUM: 95485ed5cbd7158b4c02c28a50838a9cad5aa52d
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,18 @@
+${PODS_ROOT}/Target Support Files/Pods-cocoapods-binary-cache-sample/Pods-cocoapods-binary-cache-sample-frameworks.sh
+${PODS_ROOT}/Alamofire/_Prebuilt/Alamofire.framework
+${PODS_ROOT}/ContextMenu/_Prebuilt/ContextMenu.framework
+${PODS_ROOT}/Desk360/_Prebuilt/Desk360.framework
+${PODS_ROOT}/DeviceKit/_Prebuilt/DeviceKit.framework
+${PODS_ROOT}/GoogleUtilities/_Prebuilt/GoogleUtilities.framework
+${PODS_ROOT}/IBAnimatable/_Prebuilt/IBAnimatable.framework
+${PODS_ROOT}/KDCircularProgress/_Prebuilt/KDCircularProgress.framework
+${PODS_ROOT}/Moya/_Prebuilt/Moya.framework
+${PODS_ROOT}/NVActivityIndicatorView/_Prebuilt/NVActivityIndicatorView.framework
+${PODS_ROOT}/PersistenceKit/_Prebuilt/PersistenceKit.framework
+${PODS_ROOT}/PromisesObjC/_Prebuilt/FBLPromises.framework
+${PODS_ROOT}/SnapKit/_Prebuilt/SnapKit.framework
+${PODS_ROOT}/UICKeyChainStore/_Prebuilt/UICKeyChainStore.framework
+${PODS_ROOT}/lottie-ios/_Prebuilt/Lottie.framework
+${PODS_ROOT}/mopub-ios-sdk/_Prebuilt/MoPubSDK.framework
+${PODS_ROOT}/nanopb/_Prebuilt/nanopb.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/mopub-ios-sdk/Core/OMSDK_Mopub.framework/OMSDK_Mopub

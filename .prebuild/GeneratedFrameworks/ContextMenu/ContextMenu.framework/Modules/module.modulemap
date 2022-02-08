@@ -1,0 +1,11 @@
+framework module ContextMenu {
+  umbrella header "ContextMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ContextMenu.Swift {
+    header "ContextMenu-Swift.h"
+    requires objc
+}

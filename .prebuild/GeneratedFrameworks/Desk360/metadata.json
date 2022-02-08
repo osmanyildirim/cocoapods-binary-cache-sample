@@ -1,0 +1,44 @@
+{
+  "framework_name": "Desk360.framework",
+  "static_framework": false,
+  "resources": [
+    "${PODS_CONFIGURATION_BUILD_DIR}/Desk360/Desk360.bundle",
+    "${PODS_CONFIGURATION_BUILD_DIR}/Desk360/Desk360Assets.bundle"
+  ],
+  "resource_bundles": [
+    "Desk360.bundle",
+    "Desk360Assets.bundle"
+  ],
+  "build_settings": {
+    "CLANG_ENABLE_OBJC_WEAK": "NO",
+    "CODE_SIGN_IDENTITY[sdk=appletvos*]": "",
+    "CODE_SIGN_IDENTITY[sdk=iphoneos*]": "",
+    "CODE_SIGN_IDENTITY[sdk=watchos*]": "",
+    "CURRENT_PROJECT_VERSION": "1",
+    "DEFINES_MODULE": "YES",
+    "DYLIB_COMPATIBILITY_VERSION": "1",
+    "DYLIB_CURRENT_VERSION": "1",
+    "DYLIB_INSTALL_NAME_BASE": "@rpath",
+    "GCC_PREFIX_HEADER": "Target Support Files/Desk360/Desk360-prefix.pch",
+    "INFOPLIST_FILE": "Target Support Files/Desk360/Desk360-Info.plist",
+    "INSTALL_PATH": "$(LOCAL_LIBRARY_DIR)/Frameworks",
+    "IPHONEOS_DEPLOYMENT_TARGET": "10.0",
+    "LD_RUNPATH_SEARCH_PATHS": [
+      "$(inherited)",
+      "@executable_path/Frameworks",
+      "@loader_path/Frameworks"
+    ],
+    "MODULEMAP_FILE": "Target Support Files/Desk360/Desk360.modulemap",
+    "PRODUCT_MODULE_NAME": "Desk360",
+    "PRODUCT_NAME": "Desk360",
+    "SDKROOT": "iphoneos",
+    "SKIP_INSTALL": "YES",
+    "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "$(inherited) ",
+    "SWIFT_VERSION": "5.0",
+    "TARGETED_DEVICE_FAMILY": "1,2",
+    "VERSIONING_SYSTEM": "apple-generic",
+    "VERSION_INFO_PREFIX": ""
+  },
+  "source_hash": null,
+  "project_root": "/Users/osmanyildirim/Downloads"
+}

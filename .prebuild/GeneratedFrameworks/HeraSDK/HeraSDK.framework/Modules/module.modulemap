@@ -1,0 +1,11 @@
+framework module HeraSDK {
+  umbrella header "HeraSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module HeraSDK.Swift {
+    header "HeraSDK-Swift.h"
+    requires objc
+}
